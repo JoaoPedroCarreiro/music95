@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Gangsta's Paradise",
+        "album": "Gangsta's Paradise",
+        "artist": "Coolio feat. L.V.",
+        "url": "assets/songs/gangsta paradise.mp3",
+        "img": "assets/songs-image/gangsta paradise.webp"
+    },
+    {
+        "name": "Wonderwall",
+        "album": "(What's The Story) Morning Glory?",
+        "artist": "Oasis",
+        "url": "assets/songs/wonderwall.mp3",
+        "img": "assets/songs-image/wonderwall.webp"
+    },
+    {
+        "name": "Self Esteem",
+        "album": "Smash",
+        "artist": "The Offspring",
+        "url": "assets/songs/self esteem.mp3",
+        "img": "assets/songs-image/self esteem.webp"
+    },
+    {
+        "name": "Waterfalls",
+        "album": "Crazysexycool",
+        "artist": "TLC",
+        "url": "assets/songs/waterfalls.mp3",
+        "img": "assets/songs-image/waterfalls.webp"
+    },
+    {
+        "name": "Breakfast At Tiffany's",
+        "album": "Home",
+        "artist": "Deep Blue Something",
+        "url": "assets/songs/breakfast.mp3",
+        "img": "assets/songs-image/breakfast.webp"
+    },
+    {
+        "name": "Back For Good",
+        "album": "Nobody Else",
+        "artist": "Take That",
+        "url": "assets/songs/bfg.mp3",
+        "img": "assets/songs-image/bfg.webp"
+    },
+    {
+        "name": "He's mine",
+        "album": "Azz Izz",
+        "artist": "MoKenStef",
+        "url": "assets/songs/hes mine.mp3",
+        "img": "assets/songs-image/hes mine.webp"
+    },
+    {
+        "name": "Sweet Dreams (Are Made Of This)",
+        "album": "Smells Like Children",
+        "artist": "Marilyn Manson",
+        "url": "assets/songs/sweet dreams.mp3",
+        "img": "assets/songs-image/sweet dreams.webp"
+    },
+    {
+        "name": "Keep Their Heads Ringin'",
+        "album": "Keep Their Heads Ringin'",
+        "artist": "Dr. Dre",
+        "url": "assets/songs/kthr.mp3",
+        "img": "assets/songs-image/kthr.webp"
+    },
+    {
+        "name": "Bullet With Butterfly Wings",
+        "album": "Mellon Collie and the Infinite Sadness",
+        "artist": "The Smashing Pumpkins",
+        "url": "assets/songs/bwbw.mp3",
+        "img": "assets/songs-image/bwbw.webp"
+    },
+    {
+        "name": "Big Poppa",
+        "album": "Ready to Die",
+        "artist": "The Notorious B.I.G.",
+        "url": "assets/songs/big poppa.mp3",
+        "img": "assets/songs-image/big poppa.webp"
+    },
+    {
+        "name": "Be my Lover",
+        "album": "Sweet Dreams",
+        "artist": "La Bouche",
+        "url": "assets/songs/be my lover.mp3",
+        "img": "assets/songs-image/be my lover.webp"
+    },
+    {
+        "name": "1st of tha Month",
+        "album": "E. 1999 Eternal",
+        "artist": "Bone Thugs N Harmony",
+        "url": "assets/songs/first.mp3",
+        "img": "assets/songs-image/first.webp"
+    },
+    {
+        "name": "Just a Girl",
+        "album": "Tragic Kingdom",
+        "artist": "No Doubt",
+        "url": "assets/songs/just a girl.mp3",
+        "img": "assets/songs-image/just a girl.webp"
+    },
+    {
+        "name": "The Bomb [These Sounds Fall Into My Mind",
+        "album": "The Bomb [These Sounds Fall Into My Mind",
+        "artist": "The Bucketheads",
+        "url": "assets/songs/the bomb.mp3",
+        "img": "assets/songs-image/the bomb.webp"
+    },
+    {
+        "name": "Roll With It",
+        "album": "(What's The Story) Morning Glory?",
+        "artist": "Oasis",
+        "url": "assets/songs/rwi.mp3",
+        "img": "assets/songs-image/rwi.webp"
+    },
+    {
+        "name": "Candy Rain",
+        "album": "Candy Rain",
+        "artist": "Soul For Real",
+        "url": "assets/songs/candy rain.mp3",
+        "img": "assets/songs-image/candy rain.webp"
+    },
+    {
+        "name": "On Bended Knee",
+        "album": "II",
+        "artist": "Boyz II Men",
+        "url": "assets/songs/obk.mp3",
+        "img": "assets/songs-image/obk.webp"
+    },
+    {
+        "name": "Alright",
+        "album": "I Should Coco",
+        "artist": "Supergrass",
+        "url": "assets/songs/alright.mp3",
+        "img": "assets/songs-image/alright.webp"
+    },
+    {
+        "name": "Fantasy",
+        "album": "Daydream",
+        "artist": "Mariah Carey",
+        "url": "assets/songs/fantasy.mp3",
+        "img": "assets/songs-image/fantasy.webp"
+    }
+]
