@@ -33,6 +33,8 @@ const StyledTab = styled.div`
         max-width: 100px;
         overflow: hidden;
         text-overflow: ellipsis;
+
+        white-space: nowrap;
     }
 
     #close {

@@ -53,7 +53,6 @@ export default function Options({ reRender }) {
         const arr = []
 
         for(let i = 0; i < tabs.children.length; i++) {
-            console.log(tabs.children, tabs.children.item(i).textContent, curPlay.slice(2, curPlay.length))
             if(tabs.children.item(i).textContent === curPlay.slice(2, curPlay.length)) {
                 arr.push(tabs.children.item(i))
             }

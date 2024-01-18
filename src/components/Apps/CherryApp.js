@@ -1,4 +1,4 @@
-import { useContext } from "react"
+import { useContext, useState } from "react"
 
 import styled from "styled-components"
 
@@ -42,10 +42,22 @@ const StyledCherryApp = styled.button`
 export default function CherryApp() {
     const { setClosed, setMinimized } = useContext(CherryContext)
 
+    const [last, setLast] = useState(new Date().getTime() / 1000)
+
     return (
         <StyledCherryApp
-            onDoubleClick={() => { setClosed(false); setMinimized(false) }}
-            onClick={(e) => e.currentTarget.setAttribute("oneclick", "")}
+            onClick={(e) => {
+                setLast(new Date().getTime() / 1000)
+
+                const now = new Date().getTime() / 1000
+
+                if(now - last < 0.27) {
+                    setClosed(false)
+                    setMinimized(false)
+                }
+
+                e.currentTarget.setAttribute("oneclick", "")
+            }}
             onBlur={(e) => e.currentTarget.removeAttribute("oneclick")}
         >
             <img src={cherry} alt="Cherry Music 95" />

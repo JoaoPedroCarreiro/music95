@@ -25,6 +25,14 @@ const StyledPlaylist = styled.div`
     position: relative;
 
     p {
+        display: block;
+        width: 100%;
+
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
         font-size: .9rem;
         text-align: start;
 

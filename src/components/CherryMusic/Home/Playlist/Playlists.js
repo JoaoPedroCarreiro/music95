@@ -53,7 +53,7 @@ export default function Playlists() {
 
     return (
 		<StyledPlaylists>
-            <div>
+            <div style={{ paddingTop: "20px" }}>
                 {getPlaylists()}
             </div>
             <button onClick={addPlaylist} className="styled-button" id="new-button">New Playlist</button>

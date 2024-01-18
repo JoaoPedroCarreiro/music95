@@ -15,10 +15,6 @@ const StyledApps = styled.div`
     flex-direction: column;
 
     gap: 20px;
-
-    @media only screen and (width <= 480px) {
-        display: none;
-    }
 `
 
 export default function Apps() {
