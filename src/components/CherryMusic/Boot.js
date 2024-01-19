@@ -148,7 +148,7 @@ export default function Boot({ setLoaded }) {
     }, [])
 
     return (
-        <StyledBoot onKeyDown={onKeyDown} tabIndex="0" ref={bootRef}>
+        <StyledBoot onClick={onKeyDown} onKeyDown={onKeyDown} tabIndex="0" ref={bootRef}>
             <div ref={messagesRef} id="messages">
                 <p>CherryWindows95 Version 1.0</p>
                 <div>

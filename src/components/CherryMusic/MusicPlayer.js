@@ -254,8 +254,10 @@ export default function MusicPlayer() {
                         min="0" max="1000"
                         defaultValue={0}
                         onMouseDown={onMouseDown}
+                        onTouchStart={onMouseDown}
                         onChange={onChange}
                         onMouseUp={onMouseUp}
+                        onTouchEnd={onMouseUp}
                         disabled={currentMusic === -1}
                     />
                 </div>
