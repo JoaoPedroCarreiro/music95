@@ -11,6 +11,7 @@ const StyledBoot = styled.div`
     z-index: 5;
 
     width: 100%;
+    height: 100%;
 
     border: 25px solid black;
 
