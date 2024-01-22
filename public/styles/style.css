@@ -18,7 +18,7 @@
 }
 
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
     cursor: none;
 }
 
@@ -30,7 +30,7 @@ main {
 
     background-color: var(--bg);
 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 div[role="button"], input, button, a, label {
