@@ -67,10 +67,10 @@ export default function Win() {
 				setCurrentPlaylist: setCurrentPlaylist
 			}}
 		>
-			<Boot setLoaded={setLoaded} />
+			{/* <Boot setLoaded={setLoaded} />
 			{
 				(loaded) ? 
-					<>
+					<> */}
 						<Apps />
 						<CherryMusic />
 						<TaskBar />
@@ -80,10 +80,10 @@ export default function Win() {
 						<RenamePlaylistWindow reRender={reRender} />
 						<SongOptions />
 						<AddToPlaylist />
-					</>
+					{/* </>
 				:
 					<></>
-			}
+			} */}
 		</CherryContext.Provider>
 	)
 }
