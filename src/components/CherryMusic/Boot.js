@@ -11,7 +11,6 @@ const StyledBoot = styled.div`
     z-index: 5;
 
     width: 100%;
-    height: 100%;
 
     border: 25px solid black;
 
@@ -47,13 +46,9 @@ const StyledBoot = styled.div`
         width: 100%;
         height: calc(100% - 25px);
 
-        #img-boot {
+        img {
             width: 100%;
             height: 100%;
-
-            background-image: url(${boot});
-            background-position: 50% 50%;
-            background-size: cover;
         }
 
         #loading-bar {
@@ -161,7 +156,7 @@ export default function Boot({ setLoaded }) {
                 <p>Press any key to start.</p>
             </div>
             <div ref={bootWindowRef} id="boot-window">
-                <div id="img-boot"></div>
+                <img src={boot} alt="boot" />
                 <div id="loading-bar"><div></div></div>
             </div>
         </StyledBoot>
