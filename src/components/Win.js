@@ -71,15 +71,15 @@ export default function Win() {
 			{
 				(loaded) ? 
 					<> */}
-						{/* <Apps />
-						<CherryMusic /> */}
+						<Apps />
+						<CherryMusic />
 						<TaskBar />
-						{/* <CreatePlaylistWindow reRender={reRender} />
+						<CreatePlaylistWindow reRender={reRender} />
 						<RepeatedNameWindow />
 						<Options reRender={reRender} />
 						<RenamePlaylistWindow reRender={reRender} />
 						<SongOptions />
-						<AddToPlaylist /> */}
+						<AddToPlaylist />
 					{/* </>
 				:
 					<></>
